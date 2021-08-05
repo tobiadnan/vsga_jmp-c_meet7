@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vsga.meet7.tugasmeet7app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dts"
+        android:label="Main Menu"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TugasMeet7App">
+        <activity android:name=".activity.CalculatorActivity"
+            android:label="Kalkulator App"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".activity.ListViewActivity"
+            android:label="List View App"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".activity.InputNameActivity"
+            android:label="Input Nama"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

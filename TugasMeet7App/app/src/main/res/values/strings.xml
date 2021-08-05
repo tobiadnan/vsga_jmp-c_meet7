@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tugas Meet 7 App</string>
+    <string name="kalkulator_app">Kalkulator App</string>
+    <string name="list_view_app">List View App</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="keluar">Keluar</string>
+    <string name="input_nama">Input Nama</string>
+</resources>

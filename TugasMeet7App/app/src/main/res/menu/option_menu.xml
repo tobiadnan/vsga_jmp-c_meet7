@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/itemNama"
+        android:enabled="true"
+        android:visible="true"
+        android:title="@string/input_nama" />
+
+    <item
+        android:id="@+id/itemKalkulator"
+        android:enabled="true"
+        android:visible="true"
+        android:title="@string/kalkulator_app" />
+
+    <item
+        android:id="@+id/itemListView"
+        android:enabled="true"
+        android:visible="true"
+        android:title="@string/list_view_app" />
+
+    <item
+        android:id="@+id/itemSetting"
+        android:enabled="true"
+        android:visible="true"
+        android:title="@string/setting" />
+
+    <item
+        android:id="@+id/itemAbout"
+        android:enabled="true"
+        android:visible="true"
+        android:title="@string/about" />
+
+    <item
+        android:id="@+id/itemKeluar"
+        android:enabled="true"
+        android:visible="true"
+        android:title="@string/keluar" />
+</menu>
